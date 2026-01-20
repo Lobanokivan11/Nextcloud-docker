@@ -8,7 +8,7 @@
       "onAutoForward": "notify"
     }
   }, 
-  "updateContentCommand": "git pull", 
+  "postCreateCommand": "gh codespace ports visibility 80:public -c $CODESPACE_NAME", 
   "otherPortsAttributes": {
     "onAutoForward": "notify"
   }, 
