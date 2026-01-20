@@ -1,0 +1,15 @@
+{
+  "name": "Nextcloud",
+  "service": "nextcloud",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Web",
+      "onAutoForward": "notify"
+    }
+  },
+  "otherPortsAttributes": {
+    "onAutoForward": "ignore"
+  }, 
+  "dockerComposeFile": "codespaces.yml"
+}
