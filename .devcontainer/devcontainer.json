@@ -11,5 +11,12 @@
   "otherPortsAttributes": {
     "onAutoForward": "notify"
   }, 
-  "dockerComposeFile": "codespaces.yml"
+  "dockerComposeFile": "codespaces.yml", 
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "codespaces.shutdownWhenInactive": false
+      }
+    }
+  }
 }
